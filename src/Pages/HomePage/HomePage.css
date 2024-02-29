@@ -1,0 +1,29 @@
+
+
+.intro{
+    color: teal;
+    border: solid blue 1px;
+    height: 75vh;
+    background-image: url("/./src/images/intro1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro-shade{
+    height: inherit;
+    background-color: rgba(0,0,0,.25);
+}
+
+.intro-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do{
+    background-color: whitesmoke;
+    height: 50vh;
+}
