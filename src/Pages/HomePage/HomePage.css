@@ -24,6 +24,17 @@
 }
 
 .what-we-do{
-    background-color: whitesmoke;
-    height: 50vh;
+    background-color: white;
+    border: red solid 1px;
+    padding: 1rem;
+}
+
+.details-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details-text{
+    font-size: 1.2rem;
+    text-align: left;
 }
