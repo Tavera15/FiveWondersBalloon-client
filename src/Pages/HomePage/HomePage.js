@@ -20,9 +20,9 @@ function HomePage()
                 <h2 className="mb-5">We Love What We Do</h2>
 
                 <div className=" details-box">
-                    <div className="col-0 col-md-1 col-lg-2"></div>
+                    <div className="col-0 col-md-0 col-lg-0 col-xl-2"></div>
 
-                    <div className="col-12 col-md-5 col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-6 col-xl-4">
                         <p className="details-text col-12">
                             We decorate for all types of events including: 
                             Birthdays, Graduations, Weddings, Grand Openings, Gender Reveals, Baby Showers, 
@@ -31,13 +31,13 @@ function HomePage()
                         </p>
                     </div>
                     
-                    <div className="col-0 col-md-1 col-lg-1"></div>
+                    <div className="col-0 col-md-1 col-lg-1 col-xl-1"></div>
 
-                    <div className="col-12 col-md-4 col-lg-3">                    
-                        <img className="col-10" src={wwd} alt="wwd"/>
+                    <div className="col-12 col-md-5 col-lg-5 col-xl-3">                    
+                        <img className="col-12 col-lg-12 col-xl-12" src={wwd} alt="wwd"/>
                     </div>
 
-                    <div className="col-0 col-md-1 col-lg-2"></div>
+                    <div className="col-0 col-md-0 col-lg-0 col-xl-"></div>
                 </div>
             </div>
 
