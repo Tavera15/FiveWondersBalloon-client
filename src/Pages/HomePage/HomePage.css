@@ -1,13 +1,12 @@
 
 
 .intro{
-    color: teal;
+    color: white;
     border: solid blue 1px;
     height: 75vh;
     background-image: url("/./src/images/intro1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -19,14 +18,26 @@
 .intro-text-container{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+    height: inherit;
 }
 
 .what-we-do{
-    background-color: white;
     border: red solid 1px;
     padding: 1rem;
+}
+
+.details-card{
+    background-image: url("/./src/images/card2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
 }
 
 .details-box{
@@ -37,4 +48,12 @@
 .details-text{
     font-size: 1.2rem;
     text-align: left;
+}
+
+.occassions-list li{
+    border: none !important;
+}
+
+.details-card-img{
+    
 }
