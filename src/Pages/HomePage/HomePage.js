@@ -1,9 +1,10 @@
 import React from "react";
 import "./HomePage.css";
 import "../../images/introservices.jpeg";
-import wwd from "../../images/introservices.jpeg"
+import wwd from "../../images/card1.jpeg"
 import logo from "../../images/logo.jpeg"
 import { Button } from "react-bootstrap";
+import ServiceCard from "../../Components/ServiceCard/ServiceCard";
 
 
 function HomePage()
@@ -20,66 +21,58 @@ function HomePage()
                 </div>
             </div>
 
-            <div className="what-we-do">
-                <h2 className="mb-5">We Love What We Do</h2>
+            <div className="promo">
+                <p>Promo goes here dfgegf erger gergerg ergerge rgergerg ergerg erger gergergerg f 5t4t3ew r3t3 tt534 t3t5 t35t35terg ergetge </p>
+            </div>
 
-                <div className="container mb-4">
-                    <div className="details-card p-4 container col-12 col-md-10">
-                        <div className="col-12 col-md-5">
-                            <p className="details-text col-12">
-                                We decorate for all types of events including: 
-                            </p>
-                            
-                            <p>We specialize in kdjshf sf s sdsf wef sdf asd sgv sdf ef asdcv sdf gfd  vdgf sdfv drg sdfvsv sf f</p>
-                            
-                            
-                        </div>
+            {/*
 
-                        <div className="col-1 col-md-0"></div>
+                <div className="container about-us p-4">
 
-                        <div className="col-12 col-md-5 details-card-img">
-                            <img className="col-10" src={logo} alt="logo"/>
-                        </div>
-                    </div>
+                <div className="col-12 col-sm-3">
+                    <img className="col-12" alt="about-1" src={wwd}/>
                 </div>
 
-
-
-
-
-                <div className=" details-box">
-                    <div className="col-0 col-md-0 col-lg-0 col-xl-2"></div>
-
-                    <div className="col-12 col-md-6 col-lg-6 col-xl-4">
-                        <p className="details-text col-12">
-                            We decorate for all types of events including: 
-                        </p>
-                        
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Birthdays</li>
-                            <li className="list-group-item">Graduations</li>
-                            <li className="list-group-item">Weddings</li>
-                            <li className="list-group-item">Baby Showers</li>
-                            <li className="list-group-item">Gender Reveals</li>
-                            <li className="list-group-item">Grand Openings</li>
-                            <li className="list-group-item">Reunions</li>
-                            <li className="list-group-item">Milestones</li>
-                            <li className="list-group-item">and more!</li>
-                        </ul>
-                    </div>
-                    
-                    <div className="col-0 col-md-1 col-lg-1 col-xl-1"></div>
-
-                    <div className="col-12 col-md-5 col-lg-5 col-xl-3">                    
-                        <img className="col-12 col-lg-12 col-xl-12" src={wwd} alt="wwd"/>
-                    </div>
-
-                    <div className="col-0 col-md-0 col-lg-0 col-xl-"></div>
+                <div className="about-us-content col-12 col-sm-6">
+                    <h1>Balloon Decor based in Houston, TX</h1>
+                </div>
+                
+                <div className="col-12 col-sm-3">
+                    <img className="col-12" alt="about-2" src={wwd}/>
                 </div>
             </div>
 
-            <div className="specialties">
+            */}
 
+            <div className="what-we-do">
+            
+            <div className="container mb-4">
+            <div className="details-card p-4 container col-12 col-md-10">
+            <div className="col-12 col-md-5">
+            <p className="details-text col-12">
+            We decorate for all types of events including: 
+            </p>
+            
+            <p>We specialize in kdjshf sf s sdsf wef sdf asd sgv sdf ef asdcv sdf gfd  vdgf sdfv drg sdfvsv sf f</p>
+            </div>
+            <div className="col-0 col-md-1"></div>
+            <img className="col-8 col-md-5 details-card-img" src={wwd} alt="logo"/>
+            </div>
+            </div>
+            
+            </div>
+            
+            <div className="bg-pic mb-4">
+                <div className="specialties pt-4">
+                    <h2>Balloon Decor Services</h2>
+
+                    <div className="services-list container">
+                        <ServiceCard />
+                        <ServiceCard />
+                        <ServiceCard />
+                        <ServiceCard />
+                    </div>
+                </div>
             </div>
 
             <div className="balloon-arcs">
