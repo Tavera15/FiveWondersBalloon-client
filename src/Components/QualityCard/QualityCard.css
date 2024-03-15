@@ -1,0 +1,16 @@
+
+.service-card{
+}
+
+
+.service-card-img{
+    background-position: 50% 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+
+.pic{
+}

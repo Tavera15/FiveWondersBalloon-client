@@ -1,15 +1,18 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import img from "../../images/card2.jpeg"
-import "./ServiceCard.css"
+import "./ServiceCard.css";
+import temp from "../../images/card2.jpeg";
 
-function ServiceCard()
+function ServiceCard(props)
 {
     return(
-        <div className="col-12 col-lg-3 col-md-3 col-sm-6 service-card">
-            <div className="p-4 col-12">
-                <img alt="1" src={img} className="col-12 service-card-img"/>
-                <h3 className="mt-4">Service Title</h3>
+        <div className={`service-card " + ${props.zzLeft ? "zz-left" : ""}`}>
+            <div className="p-4 col-12 col-sm-5">
+                <img className="col-12" src={temp} />
+            </div>
+
+            <div className="p-1 col-12 col-sm-7">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     );
