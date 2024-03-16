@@ -6,7 +6,7 @@ function ServiceCard(props)
 {
     return(
         <div className={`service-card " + ${props.zzLeft ? "zz-left" : ""}`}>
-            <div className="p-4 col-12 col-sm-5">
+            <div className="p-4 col-12 col-sm-4">
                 <img className="col-12" src={temp} />
             </div>
 

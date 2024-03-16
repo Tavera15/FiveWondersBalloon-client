@@ -21,6 +21,7 @@
     height: inherit;
     background-color: rgba(255, 255, 255, 1);
     background-color: rgba(0,0,0,.35);
+    width: 100%;
 }
 
 .intro-text-container{
@@ -122,18 +123,22 @@
     padding: 2rem;
 }
 
-.what-we-do{
+.flex-center{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .details-card{
     background-image: url("/./src/images/card2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    border-radius: 25px;
+}
+
+.inner-details-card{
     border-radius: 25px;
 }
 
@@ -151,8 +156,7 @@
 }
 
 .details-text{
-    font-size: 1.2rem;
-    text-align: left;
+    text-align: center;
 }
 
 .specialties{
@@ -172,4 +176,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.our-work{
+    padding: 3rem 0;
+    background-color: rgba(121,180,188,255);
+}
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 65vh;
+    overflow: hidden;
+    border-radius: 25px;
 }

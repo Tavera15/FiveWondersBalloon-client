@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import "../../images/introservices.jpeg";
 import wwd from "../../images/card1.jpeg"
+import wwd2 from "../../images/card2.jpeg"
 import logo from "../../images/logo.jpeg"
 import { Button } from "react-bootstrap";
 import QualityCard from "../../Components/QualityCard/QualityCard";
@@ -81,19 +82,22 @@ function HomePage()
                 <QualityCard />
             </div>
 
-            <div className="what-we-do">
+            <div className="what-wec-do">
                 
                 <div className="container">
-                    <div className="details-card p-4 container col-12 col-md-10">
+                    <div className="what-we-do details-card">
+                        <div className="p-4 intro-shade flex-center inner-details-card col-12 col-md-10">
+
                         <div className="col-12 col-md-5">
-                            <h2 className="details-text col-12">
+                            <h1 className="details-text col-12">
                                 About Me
-                            </h2>
+                            </h1>
                     
-                            <p>We specialize in kdjshf sf s sdsf wef sdf asd sgv sdf ef asdcv sdf gfd  vdgf sdfv drg sdfvsv sf f</p>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                         <div className="col-0 col-md-1"></div>
                         <img className="col-8 col-md-5 details-card-img" src={wwd} alt="logo"/>
+                        </div>
                     </div>
                 </div>
             
@@ -101,25 +105,32 @@ function HomePage()
             
         </div>
 
-            <div className="balloon-arcs">
-
+        <div className="our-work">
+            <div className="container">
+                <h1 className="mb-5">Our Work</h1>
+                <div id="carouselExampleFade" className="carousel slide carousel-fade">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={wwd} className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={wwd2} className="d-block w-100" alt="..." />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={logo} className="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-
-            <div className="balloon-garlands">
-
-            </div>
-
-            <div className="installations">
-
-            </div>
-
-            <div className="walls">
-
-            </div>
-
-            <div className="areas-of-service">
-
-            </div>
+        </div>
         </div>
     )
 }
