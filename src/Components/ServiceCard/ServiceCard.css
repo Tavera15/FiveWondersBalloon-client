@@ -1,17 +1,21 @@
 
 .service-card{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.too{
+
 }
 
 .service-card img{
     background-position: 50% 50%;
     border-radius: 50%;
     object-fit: cover;
-    border-radius: 50%;
+    width: 100%;
     aspect-ratio: 1/1;
 }
 

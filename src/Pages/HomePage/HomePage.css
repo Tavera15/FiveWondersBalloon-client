@@ -11,12 +11,6 @@
     background-color: white;
 }
 
-.intro-bg{
-    aspect-ratio: 1/1;
-    width: 100%;
-    
-}
-
 .intro-shade{
     height: inherit;
     background-color: rgba(255, 255, 255, 1);
@@ -41,92 +35,22 @@
     font-size: 4vh;
 }
 
-.promo {
-    height: 50px; 
-    overflow: hidden;
-    position: relative;
-    }
-    .promo p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    /* Starting position */
-    -moz-transform:translateX(100%);
-    -webkit-transform:translateX(100%); 
-    transform:translateX(100%);
-    /* Apply animation to this element */ 
-    -moz-animation: scroll-left 25s linear infinite;
-    -webkit-animation: scroll-left 25s linear infinite;
-    animation: scroll-left 25s linear infinite;
-    }
-    /* Move it (define the animation) */
-    @-moz-keyframes scroll-left {
-    0% { -moz-transform: translateX(100%); }
-    100% { -moz-transform: translateX(-100%); }
-    }
-    @-webkit-keyframes scroll-left {
-    0% { -webkit-transform: translateX(100%); }
-    100% { -webkit-transform: translateX(-100%); }
-    }
-    @keyframes scroll-left {
-    0% { 
-    -moz-transform: translateX(100%); /* Browser bug fix */
-    -webkit-transform: translateX(100%); /* Browser bug fix */
-    transform: translateX(100%); 
-    }
-    100% { 
-    -moz-transform: translateX(-100%); /* Browser bug fix */
-    -webkit-transform: translateX(-100%); /* Browser bug fix */
-    transform: translateX(-100%); 
-    }
-}
 
 .white-pink-gradient{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,128,128,.4) 100%);
 
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,173,215,.4) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,173,215,.2) 100%);
 }
 
-.grid-services{
+.flex-row-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-
-
-.about-us{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: solid green 2px;
-    text-align: center;
-}
-
-.about-us img{
-    background-position: 50% 50%;
-    border-radius: 50%;
-    object-fit: cover;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    height: 100%;
-}
-
-
-.about-us-content{
-    height: inherit;
-    padding: 2rem;
 }
 
 .flex-center{
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -142,7 +66,7 @@
     border-radius: 25px;
 }
 
-.details-card-img{
+.round-img{
     background-position: 50% 50%;
     background-attachment: fixed;
     border-radius: 50%;
@@ -150,18 +74,6 @@
     height: 50%;
 }
 
-.details-box{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.details-text{
-    text-align: center;
-}
-
-.specialties{
-    background-color: rgba(255, 255, 255, 0.6);
-}
 
 .bg-pic{
     background-image: url("/src/images/card1.jpeg");
@@ -169,14 +81,6 @@
     background-size: cover;
 }
 
-
-.services-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 
 .our-work{
     padding: 3rem 0;
@@ -189,4 +93,8 @@
     height: 65vh;
     overflow: hidden;
     border-radius: 25px;
+}
+
+.details-text-box{
+    color: white;
 }

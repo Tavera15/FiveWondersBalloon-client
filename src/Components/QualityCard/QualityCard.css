@@ -1,16 +1,12 @@
 
-.service-card{
+.quality-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
-.service-card-img{
-    background-position: 50% 50%;
-    border-radius: 50%;
-    object-fit: cover;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    height: 100%;
-}
-
-.pic{
+.service-icon{
+    height: 4rem;
+    object-fit: contain;
 }

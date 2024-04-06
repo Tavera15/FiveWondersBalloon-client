@@ -12,6 +12,7 @@ import ServiceCard from "../../Components/ServiceCard/ServiceCard";
 function HomePage()
 {
     return(
+
         <div>
             <div className="intro">
                 <div className="intro-shade">
@@ -23,92 +24,23 @@ function HomePage()
                 </div>
             </div>
 
-            {/*
-            <div className="promo">
-                <p>Promo goes here dfgegf erger gergerg ergerge rgergerg ergerg erger gergergerg f 5t4t3ew r3t3 tt534 t3t5 t35t35terg ergetge </p>
-            </div>
-
-
-                <div className="container about-us p-4">
-
-                <div className="col-12 col-sm-3">
-                    <img className="col-12" alt="about-1" src={wwd}/>
-                </div>
-
-                <div className="about-us-content col-12 col-sm-6">
-                    <h1>Balloon Decor based in Houston, TX</h1>
-                </div>
-                
-                <div className="col-12 col-sm-3">
-                    <img className="col-12" alt="about-2" src={wwd}/>
-                    </div>
-                    </div>
-                    
-            
-            <div className="bg-pic mb-4">
-                <div className="specialties pt-4">
-                    <h2>Balloon Decor Services</h2>
-
-                    <div className="services-list container">
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
-                    </div>
-                </div>
-            </div>
-        */}
-
-        <div className="pt-4 pb-4 list-of-servgices">
+        <div className="pt-4 list-of-services">
             <h1>Our Services</h1>
 
             <div className="grid-services zig-zag-services white-pink-gradient">
-                <div className="container">
+                <div className="p-4 container flex-row-wrap">
                     <ServiceCard zzLeft={true} />
                     <ServiceCard zzLeft={false} />
                     <ServiceCard zzLeft={true} />
                     <ServiceCard zzLeft={false} />
                 </div>
             </div>
-        </div>
-
-
-        <div className="descriptions pt-4 pb-4">
-
-            <div className="container grid-services mb-4">
-                <QualityCard />
-                <QualityCard />
-                <QualityCard />
-                <QualityCard />
-            </div>
-
-            <div className="what-wec-do">
-                
-                <div className="container">
-                    <div className="what-we-do details-card">
-                        <div className="p-4 intro-shade flex-center inner-details-card col-12 col-md-10">
-
-                        <div className="col-12 col-md-5">
-                            <h1 className="details-text col-12">
-                                About Me
-                            </h1>
-                    
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        </div>
-                        <div className="col-0 col-md-1"></div>
-                        <img className="col-8 col-md-5 details-card-img" src={wwd} alt="logo"/>
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            
         </div>
 
         <div className="our-work">
             <div className="container">
                 <h1 className="mb-5">Our Work</h1>
-                <div id="carouselExampleFade" className="carousel slide carousel-fade">
+                <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="true">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={wwd} className="d-block w-100" alt="..." />
@@ -131,6 +63,68 @@ function HomePage()
                 </div>
             </div>
         </div>
+
+        <div className="descriptions pt-5 pb-5">
+
+            <div className="what-we-do">
+                
+                <div className="container">
+                    <div className="what-we-do details-card">
+                        <div className="p-4 intro-shade flex-row-wrap flex-center inner-details-card col-12 col-md-10">
+
+                        <div className="col-12 col-md-5 details-text-box">
+                            <h1 className="details-text col-12">
+                                About Me
+                            </h1>
+                    
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div className="col-0 col-md-1"></div>
+                            <img className="col-10 col-md-4 round-img" src={wwd} alt="logo"/>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div className="container mt-5 flex-row-wrap">
+                <QualityCard />
+                <QualityCard />
+                <QualityCard />
+                <QualityCard />
+            </div>
+            
+        </div>
+
+        
+        
+        {/*
+            <div className="welcome">
+                <div className="balloon-strip">
+                    <img alt="wlc" src={wwd2}/>
+                </div>
+
+
+                <div className="container col-12 balloon-strip-inner ">
+
+                    <div className="col-12 col-md-6 x">
+
+                        <div className="col-12 col-md-6 intro-img-container">
+                            <img className="col-12 intro-img" alt="wlc" src={wwd}/>
+                        </div>
+
+                        <div className="col-12 col-md-6 intro-text-box ">
+                            <div className="intro-inner-text">
+                                <h1>Welcome</h1> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        */}
         </div>
     )
 }
@@ -138,3 +132,4 @@ function HomePage()
 export default HomePage;
 
 /// https://htxballoondecoration.com
+/// https://wowlloons.com
