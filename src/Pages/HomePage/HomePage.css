@@ -44,17 +44,6 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,173,215,.2) 100%);
 }
 
-.flex-row-wrap{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flex-center{
-    justify-content: center;
-    align-items: center;
-}
-
 .details-card{
     background-image: url("/./src/images/card2.jpeg");
     background-repeat: no-repeat;

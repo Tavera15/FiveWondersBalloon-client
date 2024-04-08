@@ -1,0 +1,32 @@
+
+
+
+.main-img-container img{
+    border-radius: 25px;
+}
+
+.si-text-container{
+}
+
+.sub-img-container img{
+    padding: 1rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.si-imgRight{
+    flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 992px) {
+    .main-img-container{
+        transform: rotate(-15deg);
+        padding: 4rem 0;
+    }
+
+    .si-imgRight > .main-img-container{
+        transform: rotate(15deg);
+        padding: 4rem 0;
+    }
+} 

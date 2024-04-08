@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
+import { Link } from "react-router-dom";
 
 function NavigationBar()
 {
@@ -8,10 +9,10 @@ function NavigationBar()
     <div>
       <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Link to="/">Home</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Services</Nav.Link>
+          <Link to="/services">Services</Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-2">Events</Nav.Link>

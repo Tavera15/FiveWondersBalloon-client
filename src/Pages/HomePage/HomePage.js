@@ -27,12 +27,12 @@ function HomePage()
         <div className="pt-4 list-of-services">
             <h1>Our Services</h1>
 
-            <div className="grid-services zig-zag-services white-pink-gradient">
+            <div className="white-pink-gradient">
                 <div className="p-4 container flex-row-wrap">
-                    <ServiceCard zzLeft={true} />
-                    <ServiceCard zzLeft={false} />
-                    <ServiceCard zzLeft={true} />
-                    <ServiceCard zzLeft={false} />
+                    <ServiceCard />
+                    <ServiceCard />
+                    <ServiceCard />
+                    <ServiceCard />
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ function HomePage()
                                 About Me
                             </h1>
                     
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                         <div className="col-0 col-md-1"></div>
                             <img className="col-10 col-md-4 round-img" src={wwd} alt="logo"/>
