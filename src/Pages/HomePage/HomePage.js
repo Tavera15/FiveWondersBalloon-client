@@ -86,7 +86,7 @@ function HomePage()
                 </div>
             
             </div>
-            <div className="container mt-5 flex-row-wrap">
+            <div className="container mt-5 col-md-8 flex-row-wrap">
                 <QualityCard />
                 <QualityCard />
                 <QualityCard />

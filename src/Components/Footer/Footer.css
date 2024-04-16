@@ -4,17 +4,13 @@
 }
 
 .inner-footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
 }
 
-.footer-img-container{
-    height: 15rem;
+.footer-border{
+    border: solid teal 3px;
 }
 
-.footer-img-container img{
-    height: 100%;
+.sm img{
+    padding: 0 .4rem;
 }

@@ -15,7 +15,7 @@ function NavigationBar()
           <Link to="/services">Services</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Events</Nav.Link>
+          <Link to="/HireUs">Hire Us</Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-3">Gallery</Nav.Link>

@@ -7,7 +7,7 @@ import icon from "../../images/balloon.png";
 function QualityCard()
 {
     return(
-        <div className="col-6 p-4 quality-card">
+        <div className="col-6 p-4 pb-0 quality-card">
 
             <img className="service-icon" src={icon} alt="icon"/>
 
