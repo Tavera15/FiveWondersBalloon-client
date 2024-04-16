@@ -37,11 +37,11 @@
 
 
 .white-pink-gradient{
-    background: rgb(255,255,255);
+    /* background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,128,128,.4) 100%);
 
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,173,215,.2) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,173,215,.2) 100%); */
 }
 
 .details-card{
@@ -73,7 +73,7 @@
 
 .our-work{
     padding: 3rem 0;
-    background-color: rgba(121,180,188,255);
+    /* background-color: rgba(121,180,188,255); */
 }
 
 .carousel-item img{
