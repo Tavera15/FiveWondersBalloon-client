@@ -8,7 +8,7 @@ function ServiceCard(props)
         
         <div className="col-12 col-lg-3 col-sm-6 p-4 service-card">
             <div className="">
-                <img className="col-12" src={temp} />
+                <img className="col-12" src={temp} alt="icon" />
             </div>
 
             <div className="mt-4">

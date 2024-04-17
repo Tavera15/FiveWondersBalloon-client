@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../../images/logo.jpeg";
-import { Button } from "react-bootstrap";
 import "./Footer.css";
 import ig from "../../images/instagram.png";
 

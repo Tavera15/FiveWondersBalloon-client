@@ -1,6 +1,5 @@
 import React from "react";
 import "./ServiceItem.css";
-import mainImg from "../../images/introservices.jpeg";
 import sub1 from "../../images/balloon.png"
 import sub2 from "../../images/card1.jpeg"
 import sub3 from "../../images/card2.jpeg"
