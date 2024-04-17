@@ -6,3 +6,8 @@
 .navbar-text{
     color: black !important;
 }
+
+.navbar-sm img{
+    height: 2.5rem;
+    padding: 0 0.5rem;
+}

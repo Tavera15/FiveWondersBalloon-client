@@ -19,7 +19,7 @@ function HomePage()
                     <div className=" intro-text-container">
                         <h2 className="business-name">5Wonders Balloons</h2>
                         <h1 className="subheader">We Make the Party Pop!</h1>
-                        <Button className="btn btn-secondary">See More</Button>
+                        <Button className="btn btn-danger">See More</Button>
                     </div>
                 </div>
             </div>

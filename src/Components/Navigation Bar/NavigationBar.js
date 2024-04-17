@@ -4,6 +4,7 @@ import "./NavigationBar.css";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import icon from "../../images/instagram.png";
 
 function NavigationBar()
 {
@@ -21,8 +22,11 @@ function NavigationBar()
               <Nav.Link className="navbar-text" href="/HireUs">Hire Us</Nav.Link>
             </Nav>
             <NavDropdown.Divider />
-            <Nav>
-              <Nav.Link className="navbar-text" href="#deets">Social Medias Here</Nav.Link>
+            <Nav className="flex-row-wrap flex-center navbar-sm">
+              <Nav.Link className="navbar-text" href="/"><img src={icon} alt="sm-1" /></Nav.Link>
+              <Nav.Link className="navbar-text" href="/"><img src={icon} alt="sm-2" /></Nav.Link>
+              <Nav.Link className="navbar-text" href="/"><img src={icon} alt="sm-3" /></Nav.Link>
+              <Nav.Link className="navbar-text" href="/"><img src={icon} alt="sm-4" /></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
