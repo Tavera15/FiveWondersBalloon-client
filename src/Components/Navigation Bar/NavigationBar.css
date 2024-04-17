@@ -5,9 +5,9 @@
 
 .navbar-text{
     color: black !important;
+    text-decoration: none;
 }
 
 .navbar-sm img{
     height: 2.5rem;
-    padding: 0 0.5rem;
 }
